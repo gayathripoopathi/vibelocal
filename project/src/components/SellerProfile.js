@@ -29,7 +29,7 @@ const SellerProfile = () => {
     <div className="profile-page">
       <div className="profile-container">
         <h1 className="page-heading">Seller Profile</h1> {/* Seller Page Heading */}
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}> 
           <img
             src="https://via.placeholder.com/100"
             alt="Profile"
